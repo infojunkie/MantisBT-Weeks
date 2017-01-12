@@ -1,0 +1,12 @@
+<?php
+/**
+ * Weekly Versions
+ * Copyright (C) Karim Ratib (karim@meedan.com)
+ *
+ */
+$s_plugin_Weeks_ = '';
+$s_plugin_Weeks_title = 'Weekly Versions';
+$s_plugin_Weeks_description = 'Creates weekly software versions for your projects.';
+$s_plugin_Weeks_config = 'Configuration';
+$s_plugin_Weeks_action_update = 'Update';
+$s_plugin_Weeks_btn_weekly_versions = 'Weekly Versions';
