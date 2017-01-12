@@ -36,7 +36,7 @@ function create_or_update_versions($project_id, $dow, $year) {
     $firstDow = first_day_of_week($week, $year);
     $nextDow = strtotime($dow, $firstDow);
     $nextDow = strtotime('12pm', $nextDow);
-    $version_string = sprintf("Week %2d/%2d", date('W', $nextDow), date('y', $nextDow));
+    $version_string = sprintf("Week %d/%02d", date('W', $nextDow), date('y', $nextDow));
 
     $version_id = version_get_id($version_string, $project_id);
     if ($version_id) {
